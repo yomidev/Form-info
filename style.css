@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/I/71XpEv2TYqL.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header{
+    padding: 30px 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+#title {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+}
+
+#description {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 1.3em;
+}
+
+#survey-form {
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.1em;
+    background-color: #494745;
+    margin: 0 auto 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+    padding: 40px;
+}
+
+form >label {
+    color: white;
+    font-weight: bold;
+}
+
+#name {
+    margin: 10px 0 30px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#email {
+    margin: 10px 0 30px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#number {
+    margin: 10px 0 30px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#dropdown {
+    margin: 10px 0 30px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.opcion {
+    margin: 10px 0 10px 0;
+    font-size: 16px;
+    padding: 5px;
+}
+
+#comentario {
+    margin: 10px 0 30px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Prompt', 'sans-serif';
+    resize: none;
+}
+
+#submit {
+    margin: 10px 0 30px 0;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #C8392B;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+@media screen and (max-width:800px){
+    section{
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    header{
+        padding: 20px 10px;
+    }
+    #title{
+        font-size: 1.6em;
+    }
+    #description{
+        font-size: 1em;
+    }
+}

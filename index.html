@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulario de Información</title>
+  </head>
+  <body>
+    <main id="main">
+      <header>
+        <h1 id="title">Formulario de Registro</h1>
+        <p id="description">
+          Este formulario es para realizar su registro en la aplicación
+        </p>
+      </header>
+      <section>
+        <form action="" id="survey-form">
+          <label for="name" id="name-label">Nombre:</label>
+          <input type="text" id="name" name="name" placeholder="Escriba su nombre" required>
+          <label for="email" id="email-label">Email</label>
+          <input type="email" id="email" name="email" placeholder="Escriba su correo electrónico" required>
+          <label for="edad" id="number-label">Edad</label>
+          <input type="number" id="number" name="edad" placeholder="Escriba su edad" min="1" max="99">
+          <label for="dropdown">Selecciona tu rol correspondiente</label>
+          <select name="role" id="dropdown">
+            <option value="" selected>Selecciona una opción</option>
+            <option value="">Estudiante</option>
+            <option value="">Trabajador tiempo completo</option>
+            <option value="">Trabajador medio tiempo</option>
+            <option value="">Prefiero no decir</option>
+            <option value="">Otro</option>
+          </select>
+          <label>¿Recomendarias esta aplicación a alguna persona?</label>
+          <label for="no">
+            <input type="radio" id="no" name="question" value="No" class="opcion">
+            No
+          </label>
+          <label for="def">
+            <input type="radio" id="def" name="question"  value="Definitivamente" class="opcion">
+            Definitivamente
+          </label>
+          <label for="maybe">
+            <input type="radio" id="maybe"  name="question" value="Tal vez" class="opcion">
+            Tal vez
+          </label>
+          <br>
+          <label for="">¿Qué le gustaría aprender?(Seleccione las opciones que correspondan)</label>
+          <label for="guitarra">
+            <input type="checkbox" id="guitarra" name="casilla" value="Guitarra" class="opcion">
+            Guitarra
+          </label>
+          <label for="canto">
+            <input type="checkbox" id="canto" name="casilla" value="Canto" class="opcion">
+            Canto
+          </label>
+          <label for="piano">
+            <input type="checkbox" id="piano" name="casilla" value="Piano" class="opcion">
+            Piano
+          </label>
+          <br>
+          <label for="comentario">Por favor compartenos tu opinión:</label>
+          <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escribe aquí tu comentario"></textarea>
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
