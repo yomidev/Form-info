@@ -18,9 +18,13 @@ This project was created to practice HTML and CSS. However, I would like to upda
 
 ## Screenshots
 
+![](/screenshots/s1.png)
+![](/screenshots/s2.png)
+
+
 ## Preview
 
-- GitHub Pages: [Click Here]()
+- GitHub Pages: [Click Here](https://yomidev.github.io/Form-info/)
 
 ## Author
 
